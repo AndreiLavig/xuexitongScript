@@ -1,7 +1,7 @@
 (function () {
     window.app = {
         configs: {
-            playbackRate: 2, /// 倍数（经过试验，仅支持2倍数，更高的倍数会被限制导致视频暂停）
+            playbackRate: 1, /// 倍数（经过试验，仅支持2倍数，更高的倍数会被限制导致视频暂停）
             autoplay: true, /// 自动播放
         },
         _videoEl: null,
